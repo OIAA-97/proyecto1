@@ -11,7 +11,9 @@
         <h1>Proyecto 1</h1>
     </div>
 
-    cnx = postgre.connection('root','1234','db')
+    cnx = postgre.connection('root','1234','db');
+
+    login = check_user('txtNombre','txtPassword');
 
 
 
